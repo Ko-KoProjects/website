@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Options</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #141414fb;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #462525bb;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgb(173, 2, 2);
+            padding: 32px 24px 24px 24px;
+        }
+        h1 {
+            text-align: center;
+            color: #c0abab;
+        }
+        .payment-options {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 32px 0;
+        }
+        .payment-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 18px;
+            background: #2e2929;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #c2bdbd;
+            font-size: 1.1em;
+            transition: background 0.2s;
+        }
+        .payment-link:hover {
+            background: #3a0e0e;
+        }
+        .payment-link img {
+            width: 32px;
+            height: 32px;
+        }
+        .rates {
+            margin-top: 36px;
+            padding: 18px;
+            background: #290808f0;
+            border-radius: 6px;
+            color: #baadad;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Options</h1>
+        <div class="payment-options">
+            <a class="payment-link" href="https://ko-fi.com/orangeblacksuit" target="_blank" rel="noopener">
+                <img src="images/kofi.png" alt="Ko-fi Logo">
+                Support me on Kofi
+            </a>
+            <a class="payment-link" href="https://www.paypal.me/MagzGamboa" target="_blank" rel="noopener">
+                <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal Logo">
+                Pay with PayPal
+            </a>
+        </div>
+        <div class="rates">
+            <strong>Payment Rates:</strong>
+            <ul>
+                <li>Basic Service: $10</li>
+                <li>Standard Service: $25</li>
+                <li>Premium Service: $50</li>
+            </ul>
+            <p>Contact me for custom requests or bulk discounts, prices are negotiable!</p>
+        </div>
+    </div>
+</body>
+</html>

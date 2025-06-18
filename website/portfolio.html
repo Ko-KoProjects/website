@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: #210909;
+            color: #9c5858;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #0e0d0d;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(217, 191, 191, 0.07);
+        }
+        h2 {
+            color: #dcd2d2;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .project {
+            background: #0c0505;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            padding: 1rem;
+            transition: box-shadow 0.2s;
+        }
+        .project:hover {
+            box-shadow: 0 2px 12px rgba(205, 8, 8, 0.838);
+        }
+        .project-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .project-desc {
+            font-size: 0.97rem;
+            color: #d9b3b3;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            color: #dccfcf;
+            font-size: 0.95rem;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 4px solid #a39595;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Profile Photo" class="profile-img">
+        <h1>Eviliver</h1>
+        <p>Game Developer & Writer</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                Hi, these are the projects that I am working on, feel free to contact my socials or reach out to me if you have any concerns or inquiries
+            </p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="project-title">Robbing Innocents</div>
+                    <div class="project-desc">A visual-novel game currently under development by Ko & Ko Projects.</div><br>
+                    <p>Role: Game Directorate</p>
+                </div>
+                <div class="project">
+                    <div class="project-title">Class of 09: The Outskirts</div>
+                    <div class="project-desc">A fan-game parody of the original Class of 09 game trilogy.</div><br>
+                    <p>Role: Writer & Programmer</p>
+                </div>
+                <div class="project">
+                    <div class="project-title">Project Sekai: Teto's Territory!</div>
+                    <div class="project-desc">A rhythm-based fan parody game of Project Sekai.</div><br>
+                    <p>Role: Writer & Programmer</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>
+                Email: magscom14@gmail.com</a><br>
+                Phone: +639931576204
+            </p>
+        </section>
+    </div>
+    <footer>
+        Eviliver Was Here.
+    </footer>
+</body>
+</html>
